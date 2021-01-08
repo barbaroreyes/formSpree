@@ -1,0 +1,32 @@
+body{
+    
+    height: 50%;
+}
+.group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    background: cornsilk;
+    box-sizing: border-box;
+}
+#choice{
+    width: 100px;
+    margin: 10px;
+}
+
+form input[type="text"] {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }.btn{
+    width: 100px;
+    margin: 10px;
+}
+@media all and (max-width: 600px) {
+    .group {
+      background: chocolate;
+      align-items: center;
+      box-sizing: border-box;
+    }
+  }
